@@ -14,8 +14,9 @@ public class Main {
 
             //Read data from file
 
-            int bufferSize = 4*1024;
-            FileReader fin=new FileReader("/Users/aayushraizada/Documents/vendor_number.txt");
+            int bufferSize = 4*1024; //Reading Size of Max 4KB
+            
+            FileReader fin=new FileReader("/Users/aayushraizada/Documents/test.txt");
             BufferedReader bin=new BufferedReader(fin,bufferSize);
             int read;
 
