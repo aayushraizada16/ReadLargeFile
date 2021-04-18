@@ -33,7 +33,7 @@ public class Main {
 
             String str = sb1.toString();
 
-            String[] b = str.split(" "); // stored in array and splitted
+            String[] b = str.split("\\s+"); // stored in array and splitted
 
             //DatabaseUpdation
             AddorUpdateData(b);
